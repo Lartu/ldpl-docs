@@ -8,3 +8,4 @@ This document is definitive and backwards compatible, and any future revisions t
 
 Feedback, corrections and suggestions are welcome, both on the main [LDPL repository](https://github.com/lartu/ldpl) or by e-mail to mdelrio \(at\) dc.uba.ar. You can join the LDPL community at [r/ldpl](http://reddit.com/r/ldpl) or via IRC on irc.freenode.net channel \#ldpl.
 
+This reference can be [forked on GitHub](https://github.com/Lartu/ldpl-docs).
