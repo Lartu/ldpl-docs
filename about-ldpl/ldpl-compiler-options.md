@@ -6,7 +6,7 @@ By using `-r` you can just compile the project and print the **C++ representatio
 
 You can set the **output file** for the compiled binary with the `-o` flag. For example, if you want to name your program "dog", you could compile it with `ldpl -o=dog main.ldpl`.
 
-On **Linux** and **Windows** platforms, LDPL builds static binaries by default. If you want to build non-static ones use the `-ns`flag. To build on **Android Termux** you **must** use this flag.
+On **Linux** and **Windows** platforms, LDPL builds static binaries by default. If you want to build non-static ones use the `-ns` flag. To build on **Android Termux** you **must** use this flag.
 
 The `-c` flag tells LDPL to accept source code from the **standard input**.
 
