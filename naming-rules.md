@@ -14,7 +14,7 @@ Variables and SUB-PROCEDURE names follow the same naming rules. These names can'
 
 ## LABEL naming scheme
 
-Labels in LDPL can't be empty and may contain of any character except spaces and `"`. LABELs can't also be called `CRLF` for the same reasons explained in the section above.
+Labels in LDPL can't be empty and may contain any character except spaces and `"`. LABELs can't be named `CRLF` for the same reasons explained in the section above.
 
 ## External Identifier Naming Scheme
 
