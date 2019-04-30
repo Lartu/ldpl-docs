@@ -34,16 +34,16 @@
 
 ## Arithmetic Statements
 
-* [ADD - AND - IN](arithmetic-operation-statements/add-and-in.md)
-* [SUBTRACT - FROM - IN](arithmetic-operation-statements/subtract-from-in.md)
-* [MULTIPLY - BY - IN](arithmetic-operation-statements/multiply-by-in.md)
-* [DIVIDE - BY - IN](arithmetic-operation-statements/divide-by-in.md)
-* [MODULO - BY - IN](arithmetic-operation-statements/modulo-by-in.md)
-* [ABS](arithmetic-operation-statements/abs.md)
-* [STORE RANDOM IN](arithmetic-operation-statements/store-random-in.md)
-* [FLOOR](arithmetic-operation-statements/floor.md)
-* [CEIL](arithmetic-operation-statements/ceil.md)
-* [IN - SOLVE](arithmetic-operation-statements/in-solve.md)
+* [ADD - AND - IN](arithmetic-statements/add-and-in.md)
+* [SUBTRACT - FROM - IN](arithmetic-statements/subtract-from-in.md)
+* [MULTIPLY - BY - IN](arithmetic-statements/multiply-by-in.md)
+* [DIVIDE - BY - IN](arithmetic-statements/divide-by-in.md)
+* [MODULO - BY - IN](arithmetic-statements/modulo-by-in.md)
+* [ABS](arithmetic-statements/abs.md)
+* [STORE RANDOM IN](arithmetic-statements/store-random-in.md)
+* [FLOOR](arithmetic-statements/floor.md)
+* [CEIL](arithmetic-statements/ceil.md)
+* [IN - SOLVE](arithmetic-statements/in-solve.md)
 
 ## Text Statements
 
