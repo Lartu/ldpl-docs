@@ -70,7 +70,7 @@ These will be available to an LDPL program to declare in its `DATA:` section:
 ```text
 DATA:
 name IS EXTERNAL TEXT
-age IS EXTERNAL NUMNBER
+age IS EXTERNAL NUMBER
 street-address IS EXTERNAL TEXT
 ```
 
