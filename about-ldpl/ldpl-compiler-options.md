@@ -14,5 +14,5 @@ The `-c` flag tells LDPL to accept source code from the **standard input**.
 
 `-h` and `--help` print this list of options.
 
-The -f flag can be used to add flags to the C++ compilation line. See the [Building C++ Extensions](../extensions/c++-extensions/building-c++-extensions.md) section for more information.
+The `-f` flag can be used to add flags to the C++ compilation line. See the [Building C++ Extensions](../extensions/c++-extensions/building-c++-extensions.md) section for more information.
 
