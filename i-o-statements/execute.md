@@ -1,6 +1,6 @@
 # EXECUTE
 
-The `EXECUTE` statement executes the specified command, dumping any resulting text to the output stream.
+The `EXECUTE` statement executes the specified system command.
 
 #### Syntax:
 
