@@ -8,3 +8,10 @@ The `STORE CHARACTER CODE OF` statement stores the ASCII code of the character p
 STORE CHARACTER CODE OF <TEXT or TEXT-VAR> IN <NUMBER-VAR>
 ```
 
+#### Error codes:
+
+Multi-byte characters \(like emojis and non-ASCII characters\) cannot be parsed by this statement. When trying to do so, the operation will fail and the following values will be returned into the `ERRORCODE` and `ERRORTEXT` variables:
+
+* `ERRORCODE`: 1
+* `ERRORTEXT`: "Multibyte character received \(probably UTF-8\). Can't be parsed into a single number."
+
