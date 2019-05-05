@@ -2,7 +2,7 @@
 
 ## What is LDPL?
 
-**LDPL** _\(Lartu's Definitive Programming Language\)_ LDPL is a programming language designed from the ground up to be excessively expressive, fast, readable and easy to learn. It mimics English in the likeness of \[the good parts of\] older languages like COBOL, with the desire that it can be understood by anybody. It's highly portable and runs on a plethora of different architectures and operating systems including AMD-64, ARMv8 and PowerPC Linux and Mac OS X. It also supports UTF-8 out of the box.
+**LDPL** _\(Lartu's Definitive Programming Language\)_ is a programming language designed from the ground up to be excessively expressive, fast, readable and easy to learn. It mimics English in the likeness of \[the good parts of\] older languages like COBOL, with the desire that it can be understood by anybody. It's highly portable and runs on a plethora of different architectures and operating systems including AMD-64, ARMv8 and PowerPC Linux and Mac OS X. It also supports UTF-8 out of the box.
 
 ```coffeescript
 data: 

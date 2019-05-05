@@ -2,9 +2,9 @@
 
 Extensions can create variables and functions that are accessible from LDPL through the [CALL EXTERNAL](../call-external.md) statement and [EXTERNAL](../external-variables.md) data type keyword. Typically all you need is a single `.cpp` file that you give the `ldpl` compiler when building your program, but you can also use `.o` files, `.a` files, or any combination of them all.
 
-Extensions interact with LDPL in two main way: defining functions and declaring variables. 
+Extensions interact with LDPL in two main way: defining functions and declaring variables.
 
-### Functions
+## Functions
 
 To create a function in C++ that can be called from an LDPL program, you must follow two rules:
 
@@ -13,9 +13,9 @@ To create a function in C++ that can be called from an LDPL program, you must fo
 
 Because LDPL functions don't accept arguments or return values, to be callable from LDPL your C++ functions musn't either.
 
-And because LDPL doesn't "know" the names of your functions and instead allows the programmer to call them using the `EXTERNAL` syntax, all C++ variable and subprocedure names must contain only `A-Z`, `0-9`,  and the `_` character. Everything else on the LDPL side will get converted to an underscore \(`_`\) when referencing the C++ side.
+And because LDPL doesn't "know" the names of your functions and instead allows the programmer to call them using the `EXTERNAL` syntax, all C++ variable and subprocedure names must contain only `A-Z`, `0-9`, and the `_` character. Everything else on the LDPL side will get converted to an underscore \(`_`\) when referencing the C++ side.
 
-#### Example
+### Example
 
 For example, this function:
 
@@ -37,14 +37,14 @@ Once defined and built into LDPL, can be called using:
 CALL EXTERNAL prompt-add
 ```
 
-### Variables
+## Variables
 
 To create or reference a variable in a C++ extension that is shared with an LDPL program, you must follow two rules:
 
 1. The variable's name must conform to LDPL's [Extension Naming Convention](external-identifier-naming-scheme.md).
 2. The C++ type of the variable must match LDPL's internal type usage.
 
-The first rule should be familiar from the functions section: all C++ variable and subprocedure names must contain only `A-Z`, `0-9`,  and the `_` character. Everything else on the LDPL side will get converted to an underscore \(`_`\).
+The first rule should be familiar from the functions section: all C++ variable and subprocedure names must contain only `A-Z`, `0-9`, and the `_` character. Everything else on the LDPL side will get converted to an underscore \(`_`\).
 
 For the second, here's the mapping between types:
 
@@ -55,7 +55,7 @@ For the second, here's the mapping between types:
 | `TEXT VECTOR` | `ldpl_vector<std::string>` |
 | `NUMBER VECTOR` | `ldpl_vector<double>` |
 
-#### Example
+### Example
 
 Declaring `TEXT`and `NUMBER` variables is easy on the C++ side:
 
@@ -74,9 +74,9 @@ age IS EXTERNAL NUMBER
 street-address IS EXTERNAL TEXT
 ```
 
-### Accessing Variables in Functions
+## Accessing Variables in Functions
 
-Since LDPL and C++ are using the same variable when you use the `EXTERNAL` keyword, any changes you make to the variable's content are shared. Just use them like you would use regular C++ variables. 
+Since LDPL and C++ are using the same variable when you use the `EXTERNAL` keyword, any changes you make to the variable's content are shared. Just use them like you would use regular C++ variables.
 
 ```cpp
 double A, B, SUM;
@@ -101,7 +101,7 @@ DISPLAY SUM CRLF
 
 Building and running this program will print `350`.
 
-### LDPL Vectors
+## LDPL Vectors
 
 The `VECTOR` types are a bit trickier - they are defined as `ldpl_vector<T>`, so you'll want to declare this prototype in your `.cpp` or `.h` file to use it in your extension:
 
@@ -131,6 +131,4 @@ ldpl_vector<std::string> NAMES;
 NAMES[0] = "Pauline"
 NAMES[1] = "just Paul"
 ```
-
-
 
