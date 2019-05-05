@@ -77,5 +77,6 @@
   * ["Hello World" C++ Example](extensions/c++-extensions/hello-world-c++-example.md)
   * [More Examples](extensions/c++-extensions/more-examples.md)
 * [CALL EXTERNAL](extensions/call-external.md)
+* [EXTERNAL SUB-PROCEDUREs](extensions/external-sub-procedures.md)
 * [EXTERNAL Variables](extensions/external-variables.md)
 
