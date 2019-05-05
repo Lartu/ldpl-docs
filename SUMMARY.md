@@ -4,7 +4,7 @@
 * [About LDPL](about-ldpl/README.md)
   * [File Extensions](about-ldpl/file-extensions.md)
   * [Using the LDPL Compiler](about-ldpl/using-the-ldpl-compiler.md)
-  * [LDPL Compiler Options](about-ldpl/ldpl-compiler-options.md)
+  * [LDPL Compiler Switches](about-ldpl/ldpl-compiler-options.md)
 * [Structure of LDPL Source Code](structure-of-ldpl-source-code/README.md)
   * [Comments in LDPL](structure-of-ldpl-source-code/comments-in-ldpl.md)
   * [DATA Section](structure-of-ldpl-source-code/data-section/README.md)
@@ -15,6 +15,7 @@
   * [Usage of VECTORs](variables-in-ldpl/usage-of-vectors.md)
   * [Default Variable Values](variables-in-ldpl/default-variable-values.md)
   * [Command Line Arguments](variables-in-ldpl/command-line-arguments.md)
+  * [ERRORCODE and ERRORTEXT](variables-in-ldpl/errorcode-and-errortext.md)
   * [Escape Sequences](variables-in-ldpl/escape-sequences.md)
 * [Identifier Naming Schemes](naming-rules.md)
 
