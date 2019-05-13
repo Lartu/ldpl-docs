@@ -44,8 +44,7 @@
 * [STORE RANDOM IN](arithmetic-statements/store-random-in.md)
 * [FLOOR](arithmetic-statements/floor.md)
 * [CEIL](arithmetic-statements/ceil.md)
-* [INCR](arithmetic-statements/incr.md)
-* [DECR](arithmetic-statements/decr.md)
+* [INCR & DECR](arithmetic-statements/incr.md)
 * [IN - SOLVE](arithmetic-statements/in-solve.md)
 
 ## Text Statements
