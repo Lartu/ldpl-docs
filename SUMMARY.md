@@ -50,6 +50,7 @@
 ## Text Statements
 
 * [JOIN - AND - IN](text-statements/join-and-in.md)
+* [SPLIT - BY - IN](text-statements/split-by-in.md)
 * [GET CHARACTER AT - FROM - IN](text-statements/get-character-at-from-in.md)
 * [STORE LENGTH OF - IN](text-statements/store-length-of-in.md)
 * [STORE CHARACTER - IN](text-statements/store-character-in.md)
