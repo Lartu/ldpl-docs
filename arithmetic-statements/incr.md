@@ -26,7 +26,7 @@ WHILE x IS LESS THAN 5 DO
 REPEAT
 ```
 
-**Output:**
+Outputs:
 
 ```text
 x: 0
