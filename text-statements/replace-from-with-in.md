@@ -1,6 +1,6 @@
 # REPLACE - FROM - WITH - IN
 
-The `REPLACE` statement will find and replace every occurrence of some TEXT with some other TEXT, then place the resulting value in a TEXT-VAR. 
+The `REPLACE` statement finds and replaces every occurrence of some TEXT in a TEXT variable or value some other TEXT.  The result is then stored in a TEXT variable.
 
 **Syntax:**
 
