@@ -7,7 +7,7 @@ To break TEXT into individual characters, split by the empty string of `""`.
 #### Syntax:
 
 ```c
-SPLIT TEXT-VAR or TEXT> BY TEXT-VAR or TEXT> IN <TEXT-VECTOR>
+SPLIT <TEXT-VAR or TEXT> BY TEXT-VAR or TEXT> IN <TEXT-VECTOR>
 ```
 
 **Example:**
