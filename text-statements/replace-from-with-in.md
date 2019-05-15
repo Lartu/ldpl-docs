@@ -11,13 +11,13 @@ REPLACE <TEXT-VAR or TEXT> FROM <TEXT-VAR or TEXT> WITH <TEXT-VAR or TEXT> IN <T
 **Example:**
 
 ```coffeescript
-REPLACE "LDPL" FROM "LDPL is great!" WITH "🦕" IN sentiment
+REPLACE "COBOL" FROM "COBOL is great!" WITH "LDPL" IN sentiment
 DISPLAY sentiment crlf
 ```
 
 Outputs:
 
 ```text
-🦕 is great!
+LDPL is great!
 ```
 
