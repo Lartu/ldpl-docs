@@ -17,7 +17,7 @@ PROCEDURE:
   STORE -10.2 IN myVector:5 #Stores -10.2 in the subindex 5 of myVector
 ```
 
-Vector sub-indexes can't just be constant NUMBERs, though. They can also be NUMBER variables, TEXT and TEXT variables, or even sub-indexes of other arrays. For example:
+Vector sub-indexes don't always have to be constant NUMBERs, though. They can also be NUMBER variables, TEXT and TEXT variables, or even sub-indexes of other arrays. For example:
 
 ```coffeescript
 DATA:
@@ -32,6 +32,8 @@ PROCEDURE:
   STORE 3 IN myVector:myOtherVector:4
   #Stores 3 in the position of index value of myVar of myOtherVector
 ```
+
+In fact, when you use a NUMBER value as a subindex for a VECTOR, it is silently casted into a TEXT value. For example, `myVector:1` will be interpreted (an thus, the same) as `myVector:"1"`.
 
 Please note that as a VECTOR is a collection of variables, a single index of a VECTOR is a variable in itself. This means that a VECTOR with a sub-index can be used in any position where you could use a variable of the same type of the vector. So, if you have something like this:
 
