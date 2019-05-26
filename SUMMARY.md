@@ -60,7 +60,7 @@
 * [IN - JOIN](text-statements/in-join.md)
 * [GET INDEX OF - FROM - IN](text-statements/get-index-of-from-in.md)
 * [COUNT - FROM - IN](text-statements/count-from-in.md)
-* [SUBSTRING - FROM - LENGTH - IN](text-statements/untitled.md)
+* [SUBSTRING - FROM - LENGTH - IN](text-statements/substring.md)
 * [TRIM - IN](text-statements/trim-in.md)
 
 ## VECTOR STATEMENTS
