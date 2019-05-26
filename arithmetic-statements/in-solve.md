@@ -38,7 +38,7 @@ DISPLAY "Area is: " Area CRLF
 Outputs:
 
 ```text
-Enter Radius: .5
+Enter Radius: 0.5
 Area is: 0.7853975
 ```
 
