@@ -4,7 +4,7 @@ The `IN - SOLVE` statement will solve a simple arithmetic expression and place t
 
 Spaces **must** be used to separate numbers, variables and operators.
 
-As in actual arithmetic, `*` and `/` have higher precedence than `+` and `-` , while parens `()` can be used to group expressions. 
+As in actual arithmetic, `*` and `/` have higher precedence than `+` and `-` , while parens `()` can be used to group expressions.
 
 **Syntax**:
 

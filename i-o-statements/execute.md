@@ -8,7 +8,7 @@ The `EXECUTE` statement executes the specified system command.
 EXECUTE <TEXT or TEXT-VAR>
 ```
 
-#### Example:
+#### Example 1:
 
 ```python
 # Prepare the command to execute
@@ -17,5 +17,10 @@ IN myTextVar JOIN "echo " myVariable " >> myFile"
 EXECUTE myTextVar
 ```
 
+#### Example 2:
 
+```python
+# Execute "dir" to list the files in the current directory under Windows
+EXECUTE "dir"
+```
 

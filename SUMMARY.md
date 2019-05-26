@@ -58,6 +58,17 @@
 * [STORE CHARACTER CODE OF - IN](text-statements/store-character-code-of-in.md)
 * [STORE QUOTE - IN](text-statements/store-quote-in.md)
 * [IN - JOIN](text-statements/in-join.md)
+* [GET INDEX OF - FROM - IN](text-statements/get-index-of-from-in.md)
+* [COUNT - FROM - IN](text-statements/count-from-in.md)
+* [SUBSTRING - FROM - LENGTH - IN](text-statements/untitled.md)
+* [TRIM - IN](text-statements/trim-in.md)
+
+## VECTOR STATEMENTS
+
+* [CLEAR](vector-statements/clear.md)
+* [COPY - TO](vector-statements/copy-to.md)
+* [STORE INDEX COUNT OF - IN](vector-statements/store-index-count-of-in.md)
+* [STORE INDICES OF - IN](vector-statements/store-indices-of-in.md)
 
 ## I/O Statements
 
