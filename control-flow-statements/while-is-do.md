@@ -5,7 +5,7 @@ The `WHILE` statement evaluates if the condition given by the relational operato
 #### Syntax:
 
 ```python
-WHILE <NUMBER-VAR or NUMBER> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER> DO
+WHILE <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> DO
  #Code goes here
 REPEAT 
 ```
@@ -13,7 +13,7 @@ REPEAT
 or
 
 ```python
-WHILE <TEXT-VAR or TEXT> IS <REL-OP-TEXT> <TEXT-VAR or TEXT> DO
+WHILE <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> DO
  #Code goes here
 REPEAT 
 ```

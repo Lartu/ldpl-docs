@@ -5,7 +5,7 @@ The `IF` statement evaluates if the condition given by the relational operator b
 #### Syntax:
 
 ```python
-IF <NUMBER-VAR or NUMBER> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER> THEN
+IF <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> THEN
  #Code goes here (positive branch)
 ELSE
  #Code goes here (negative branch)
@@ -15,7 +15,7 @@ END IF
 or
 
 ```python
-IF <TEXT-VAR or TEXT> IS <REL-OP-TEXT> <TEXT-VAR or TEXT> THEN
+IF <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> THEN
  #Code goes here (positive branch)
 ELSE
  #Code goes here (negative branch)
@@ -25,7 +25,7 @@ END IF
 or
 
 ```python
-IF <NUMBER-VAR or NUMBER> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER> THEN
+IF <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> THEN
  #Code goes here (positive branch)
 END IF 
 ```
@@ -33,7 +33,7 @@ END IF
 or
 
 ```python
-IF <TEXT-VAR or TEXT> IS <REL-OP-TEXT> <TEXT-VAR or TEXT> THEN
+IF <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> THEN
  #Code goes here (positive branch)
 END IF 
 ```
