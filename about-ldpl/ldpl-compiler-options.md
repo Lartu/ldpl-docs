@@ -4,22 +4,15 @@ To compile an LDPL source file, the syntax is as follow:
 
 `$ ldpl <ldpl_source_file> [[-i=]<ldpl_source_file>]* [flag]*`
 
-The first part of the command, `ldpl` runs the LDPL compiler. Then it checks every other part of the command for either files
-or compiler flags. Compiler flags are preceded by `-` or `--`, all the remaining tokens are considered to be files to be compiled. Except when importing source files \(more on this below\), the order of the parameters of the compilation line doesn't really matter.
+The first part of the command, `ldpl` runs the LDPL compiler. Then it checks every other part of the command for either files or compiler flags. Compiler flags are preceded by `-` or `--`, all the remaining tokens are considered to be files to be compiled. Except when importing source files \(more on this below\), the order of the parameters of the compilation line doesn't really matter.
 
-You can pass the LDPL compiler as many **source files** as you want and all these files will be compiled into one big executable, respecing
-the order in which they were passed to the compiler. For example, if you have three scripts `helloWorld.ldpl` \(that prints
-"Hello World!" when executed\), `byeByeWorld.ldpl` \(that prints "Bye Bye World!"\) when executed, and `hiThere.ldpl` \(that prints
-"Hi there~" when executed\), you could compile all three files into one single executable by running
+You can pass the LDPL compiler as many **source files** as you want and all these files will be compiled into one big executable, respecing the order in which they were passed to the compiler. For example, if you have three scripts `helloWorld.ldpl` \(that prints "Hello World!" when executed\), `byeByeWorld.ldpl` \(that prints "Bye Bye World!"\) when executed, and `hiThere.ldpl` \(that prints "Hi there~" when executed\), you could compile all three files into one single executable by running
 
 `$ ldpl helloWorld.ldpl byeByeWorld.ldpl hiThere.ldpl`
 
-and this would create an executable file called `helloWorld-bin`. By default, the name used to save the executable is the name
-of the first LDPL source code passed to the compiler, minus the extension, plus `-bin` \(or `-bin.exe` on Windows\).
+and this would create an executable file called `helloWorld-bin`. By default, the name used to save the executable is the name of the first LDPL source code passed to the compiler, minus the extension, plus `-bin` \(or `-bin.exe` on Windows\).
 
-When you run `helloWorld-bin`, "Hello World! Bye Bye World! Hi there~" will be printed to the screen, respecting the order
-in which the sources where compiled. If you were to change the order of the sources in the compilation line, the order of
-execution of the binary file would change as well.
+When you run `helloWorld-bin`, "Hello World! Bye Bye World! Hi there~" will be printed to the screen, respecting the order in which the sources where compiled. If you were to change the order of the sources in the compilation line, the order of execution of the binary file would change as well.
 
 **Flags** alter the way the compiler works by default. The list of available flags can be found by running `$ ldpl -h`.
 
