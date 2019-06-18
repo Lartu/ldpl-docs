@@ -4,7 +4,7 @@ description: Introduced in LDPL 3.0.6 - Diligent Dreadnoughtus
 
 # Declaring LIST Variables
 
-A **LIST** is a sequence of values, called **elements**. The elements of a LIST are distinguished by their indices. **Indices** are NUMBER literals that start at 0 \(the first element of the list\) and grow up to the length of the list minus one \(the last element of the list\). LISTs in LDPL are variables that hold a collection of values. When you declare a LIST, you declare a structure that lets you store values of its type one after another. For example, say you declare the list`myList`:
+A **LIST** is a sequence of values, called **elements**. The elements of a LIST are distinguished by their indices. **Indices** are NUMBER literals that start at 0 \(the first element of the list\) and grow up to the length of the list minus one \(the last element of the list\). LISTs in LDPL are variables that hold a collection of values. When you declare a LIST, you declare a structure that lets you store values of its type one after another. For example, say you declare the list `myList`:
 
 ```coffeescript
 DATA:
@@ -26,7 +26,7 @@ Suppose you store the values `"hi"`, `"there"`, `"I love"` and `"LDPL, it's grea
 | 2 | `"I love"` |
 | 3 | `"LDPL, it's great!"` |
 
-We have shown the pairs in order because their order is relevant: if you added a new element to the LIST, it would be inserted after the last element, thus being associated with index `5`.
+We have shown the pairs in order because their order is relevant: if you added a new element to the LIST, it would be inserted after the last element, thus being associated with index `4`.
 
 To add values to a LIST, you must first push them to the list. For example, if you want to add the numbers `10`, `20` and `30` to a `NUMBER LIST`, your code should look like this:
 
@@ -59,4 +59,3 @@ STORE <NUMBER-VAR or NUMBER> IN <NUMBER-VAR>
 You could use a `NUMBER LIST` with a defined sub-index \(for example, in the example above, `myList:0`\) where it says NUMBER-VAR, just like in the `STORE - IN` examples in the code extracts above.
 
 In the **LIST STATEMENTS** section you'll find a collection of statements that can be used to work with LISTs.
-

@@ -9,7 +9,7 @@ The `STORE LENGTH OF - IN` statement stores the amount of elements stored in a L
 #### Syntax:
 
 ```coffeescript
-STORE KEY COUNT OF <LIST> IN <NUMBER-MAP>
+STORE LENGHT OF <LIST> IN <NUMBER-VAR>
 ```
 
 #### Example:
@@ -25,4 +25,3 @@ PROCEDURE:
   DISPLAY count CRLF
   # Will display 2
 ```
-

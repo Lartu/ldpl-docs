@@ -9,7 +9,7 @@ The `STORE KEY COUNT OF - IN` statement stores the amount of elements \(or, anal
 #### Syntax:
 
 ```coffeescript
-STORE KEY COUNT OF <MAP> IN <NUMBER-MAP>
+STORE KEY COUNT OF <MAP> IN <NUMBER-VAR>
 ```
 
 #### Example:
@@ -29,4 +29,3 @@ PROCEDURE:
 {% hint style="warning" %}
 Please note that as MAPs where called VECTORs prior to LDPL 3.0.6 Diligent Dreadnoughtus, this statement was called `STORE INDEX COUNT OF - IN`. While we still support and will continue to support legacy code that uses the old syntax, it is **deprecated** and should not be used anymore.
 {% endhint %}
-
