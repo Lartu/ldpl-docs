@@ -12,9 +12,11 @@ The **TEXT** data type, as its name suggests, represents alphanumeric strings. I
 
 Both variables and string constants can be members of the TEXT type.
 
-The **VECTOR** data type is not a type itself but a collection of NUMBER or TEXT variables. This implies that only variables can be members of the VECTOR type, as collections of constants \(and thus, constant VECTORs\) are not present in the language.
+The **LIST** data type is a collection of NUMBER or TEXT values. Values can be pushed to LISTs and then accessed and modified using the `:` operator. LIST indexes consist of integer numbers. The first index of a LIST is index 0, and the rest count up to the length of the list minus one. LISTs are explained in greater detail in the '[Declaring LIST Variables](../../variables-in-ldpl/declaring-list-variables.md)' section.
 
-VECTORs superficially resemble arrays in other programming languages but with fundamental differences. In LDPL, there's no need to specify the size of a VECTOR before you start to use it. Additionally, any number or string in LDPL may be used as an array index, not just consecutive integers.
+LISTs, as collections of NUMBER or TEXT values, can only have one defined type at any given time: TEXT or NUMBER. A single LIST is not capable of storing both numeric and alphanumeric values.
 
-VECTORs, as collections of NUMBER or TEXT variables, can only have one defined type at any given time: TEXT or NUMBER. A single VECTOR is not capable of storing both numeric and alphanumeric values.
+The **MAP** data type is a collection of NUMBER or TEXT values. MAPs superficially resemble LISTs but with fundamental differences. The biggest one is that any number or string in LDPL may be used as an array index, not just consecutive integers. Also, values in MAPs have no order, so there's no one coming before or after any other. MAPs are explained in greater detail in the '[Declaring MAP Variables](../../variables-in-ldpl/usage-of-vectors.md)' section.
+
+MAPs, as collections of NUMBER or TEXT values, can only have one defined type at any given time: TEXT or NUMBER. A single MAP is not capable of storing both numeric and alphanumeric values.
 

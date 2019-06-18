@@ -1,6 +1,6 @@
 # PROCEDURE Section
 
-As stated in [Structure of LDPL Source Code](./), LDPL programs are divided in two sections, one of them being the [DATA](data-section/) section, the other being the **PROCEDURE** section. The PROCEDURE section is where all the code of a LDPL program that is not a variable declaration is written. A LDPL program **must** contain a PROCEDURE section, even if it's empty. Compilation will fail otherwise.
+As stated in [Structure of LDPL Source Code](./), LDPL programs are divided in two sections, one of them being the [DATA](data-section/) section, the other being the **PROCEDURE** section. The PROCEDURE section is where all the code of a LDPL program that is not a variable declaration is written. A LDPL program **must** contain a PROCEDURE section, even if it's empty. Compilation will fail otherwise. If your program consists of multiple LDPL source files, each file **must** have its own PROCEDURE section.
 
 Within the PROCEDURE section, every line can contain either a comment, a statement, a statement and a comment or be empty. No two statements can be written on the same line.
 

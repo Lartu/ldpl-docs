@@ -15,5 +15,5 @@ PROCEDURE:
   END SUB-PROCEDURE
 ```
 
-Of course, you cannot have two sub-procedures with the same name. Sub-procedure names follow the same naming guidelines variable names [follow](../naming-rules.md).
+Of course, you cannot have two SUB-PROCEDUREs with the same name. SUB-PROCEDURE names follow the same naming guidelines variable names [follow](../naming-rules.md).
 

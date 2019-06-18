@@ -4,7 +4,7 @@
 
 Variables and SUB-PROCEDURE names follow the same naming rules. These names can't be empty and may consist of any character with few exceptions \(listed below\). Like statements, variable and SUB-PROCEDURE names in LDPL are not case sensitive.
 
-* Variable and SUB-PROCEDURE names cannot contain the character `:`, it is used for vector accesses.
+* Variable and SUB-PROCEDURE names cannot contain the character `:`, it is used for MAP and LIST accesses.
 * Variable and SUB-PROCEDURE names cannot contain the character `"`, it is used to delimit strings.
 * Variable and SUB-PROCEDURE names cannot contain spaces.
 * Variable and SUB-PROCEDURE names cannot be valid numbers.

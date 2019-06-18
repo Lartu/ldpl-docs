@@ -1,3 +1,7 @@
+---
+description: Introduced in LDPL 3.0.5 - Creative Carnotaurus
+---
+
 # INCR & DECR
 
 The `INCR` and `DECR`statements add or subtract from a NUMBER variable by one. The variable is updated with the new value in place.

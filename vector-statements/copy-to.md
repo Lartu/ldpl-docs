@@ -4,21 +4,21 @@ description: Introduced in LDPL 3.0.5 - Creative Carnotaurus
 
 # COPY - TO
 
-The `COPY - TO` statement copies all the elements of a vector with their respective indices to another vector **of the same type**. The original vector is untouched, but the destination vector is completely overwritten by the contents of the copied vector and any elements that existed in it prior to the copy are deleted. In other words, the destination vector is [CLEAR](clear.md)ED before the copy.
+The `COPY - TO` statement copies all the elements of a MAP with their respective keys to another MAP **of the same type**. The original MAP is untouched, but the destination MAP is completely overwritten by the contents of the copied MAP and any elements that existed in it prior to the copy are deleted. In other words, the destination MAP is [CLEAR](clear.md)ed before the copy.
 
 #### Syntax:
 
 ```coffeescript
-COPY <TEXT-VECTOR> TO <TEXT-VECTOR>
-COPY <NUMBER-VECTOR> TO <NUMBER-VECTOR>
+COPY <TEXT-MAP> TO <TEXT-MAP>
+COPY <NUMBER-MAP> TO <NUMBER-MAP>
 ```
 
 #### Example:
 
 ```coffeescript
 DATA:
-  foo IS TEXT VECTOR
-  bar IS TEXT VECTOR
+  foo IS TEXT MAP
+  bar IS TEXT MAP
 PROCEDURE:
   STORE "Hello there!" IN foo:0
   STORE "How are you?" IN foo:7

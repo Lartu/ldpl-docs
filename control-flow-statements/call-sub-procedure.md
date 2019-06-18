@@ -14,5 +14,5 @@ or just
 CALL <sub-procedure name>
 ```
 
-Of course, a [sub-procedure must be declared](../structure-of-ldpl-source-code/sub-procedures.md) before calling it.
+Of course, a [SUB-PROCEDURE must be declared](../structure-of-ldpl-source-code/sub-procedures.md) before calling it.
 

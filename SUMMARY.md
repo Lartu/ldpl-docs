@@ -12,7 +12,8 @@
   * [PROCEDURE Section](structure-of-ldpl-source-code/procedure-section.md)
   * [SUB-PROCEDUREs](structure-of-ldpl-source-code/sub-procedures.md)
 * [Variables in LDPL](variables-in-ldpl/README.md)
-  * [Usage of VECTORs](variables-in-ldpl/usage-of-vectors.md)
+  * [Declaring LIST Variables](variables-in-ldpl/declaring-list-variables.md)
+  * [Declaring MAP variables](variables-in-ldpl/usage-of-vectors.md)
   * [Default Variable Values](variables-in-ldpl/default-variable-values.md)
   * [Command Line Arguments](variables-in-ldpl/command-line-arguments.md)
   * [ERRORCODE and ERRORTEXT](variables-in-ldpl/errorcode-and-errortext.md)
@@ -63,12 +64,20 @@
 * [SUBSTRING - FROM - LENGTH - IN](text-statements/substring.md)
 * [TRIM - IN](text-statements/trim-in.md)
 
-## VECTOR STATEMENTS
+## LIST Statements
+
+* [PUSH - TO](list-statements/push-to.md)
+* [CLEAR](list-statements/clear.md)
+* [COPY - TO](list-statements/copy-to.md)
+* [STORE LENGTH OF - IN](list-statements/store-length-of-in.md)
+* [DELETE LAST ELEMENT OF](list-statements/delete-last-element-of.md)
+
+## MAP STATEMENTS <a id="vector-statements"></a>
 
 * [CLEAR](vector-statements/clear.md)
 * [COPY - TO](vector-statements/copy-to.md)
-* [STORE INDEX COUNT OF - IN](vector-statements/store-index-count-of-in.md)
-* [STORE INDICES OF - IN](vector-statements/store-indices-of-in.md)
+* [STORE KEY COUNT OF - IN](vector-statements/store-index-count-of-in.md)
+* [STORE KEYS OF - IN](vector-statements/store-indices-of-in.md)
 
 ## I/O Statements
 

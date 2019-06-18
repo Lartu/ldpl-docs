@@ -51,9 +51,13 @@ For the second, here's the mapping between types:
 | LDPL Data Type | C++ Type |
 | :--- | :--- |
 | `TEXT` | `std::string` |
-| `NUMBER` | `double` |
-| `TEXT VECTOR` | `ldpl_vector<std::string>` |
-| `NUMBER VECTOR` | `ldpl_vector<double>` |
+| `NUMBER` | `ldpl_number` |
+| `TEXT MAP` | `ldpl_vector<std::string>` |
+| `NUMBER MAP` | `ldpl_vector<ldpl_number>` |
+| `TEXT LIST` | `ldpl_list<std::string>` |
+| `NUMBER LIST` | `ldpl_list<ldpl_number>` |
+
+The declarations for this data types are included when your C++ code merged with LDPL code by the LDPL compiler.
 
 ### Example
 
@@ -61,7 +65,7 @@ Declaring `TEXT`and `NUMBER` variables is easy on the C++ side:
 
 ```cpp
 std::string NAME;
-double AGE;
+ldpl_number AGE;
 std::string STREET_ADDRESS;
 ```
 
@@ -79,7 +83,7 @@ street-address IS EXTERNAL TEXT
 Since LDPL and C++ are using the same variable when you use the `EXTERNAL` keyword, any changes you make to the variable's content are shared. Just use them like you would use regular C++ variables.
 
 ```cpp
-double A, B, SUM;
+ldpl_number A, B, SUM;
 void ADD() 
 {
     SUM = A + B;
@@ -101,9 +105,9 @@ DISPLAY SUM CRLF
 
 Building and running this program will print `350`.
 
-## LDPL Vectors
+## LDPL MAPs
 
-The `VECTOR` types are a bit trickier - they are defined as `ldpl_vector<T>`, so you'll want to declare this prototype in your `.cpp` or `.h` file to use it in your extension:
+The `MAP` types are a bit trickier - they are defined as `ldpl_vector<T>`, so you'll want to declare this prototype in your `.cpp` or `.h` file to use it in your extension:
 
 ```cpp
 #ifndef ldpl_vector
@@ -115,11 +119,11 @@ struct ldpl_vector {
 #endif
 ```
 
-Now you can use vectors in LDPL:
+Now you can use MAPs in LDPL:
 
 ```text
 DATA:
-Names IS EXTERNAL TEXT VECTOR
+Names IS EXTERNAL TEXT MAP
 ```
 
 And in C++:
@@ -131,4 +135,8 @@ ldpl_vector<std::string> NAMES;
 NAMES[0] = "Pauline"
 NAMES[1] = "just Paul"
 ```
+
+{% hint style="info" %}
+The internal datatype for LDPL MAPs is called ldpl\_vector because in LDPL releases prior to LDPL 3.0.6 Diligent Dreadnoughtus, MAPs where called VECTORs.
+{% endhint %}
 

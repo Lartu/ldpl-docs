@@ -5,7 +5,7 @@ As stated in [Structure of LDPL Source Code](../), LDPL programs are divided in 
 All variables in LDPL are global \(LDPL has no concept of scope\) and have a defined [data type](data-types.md).
 
 {% hint style="info" %}
- Available data types are NUMBER, TEXT, NUMBER VECTOR and TEXT VECTOR.
+ Available data types are `NUMBER`, `TEXT`, `NUMBER LIST`, `TEXT LIST`, `NUMBER MAP` and `TEXT MAP`.
 {% endhint %}
 
 The DATA section is defined and preceded by the `DATA:` keyword. An empty data section looks like this:
@@ -33,7 +33,8 @@ A DATA section cannot contain anything but variable declarations, comments and e
 DATA: #This is the DATA section 
   myNumber IS NUMBER 
   #Next I'm going to declare a text vector 
-  niceTextVector IS TEXT VECTOR 
+  niceTextMap IS TEXT NUMBER
+  myAwesomeList IS NUMBER LIST # I've declared a number list!
 
 PROCEDURE: 
   #This is a comment within the PROCEDURE section! 
