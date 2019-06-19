@@ -15,3 +15,7 @@ Multi-byte characters \(like emojis and non-ASCII characters\) cannot be parsed 
 * `ERRORCODE`: 1
 * `ERRORTEXT`: "Multibyte character received \(probably UTF-8\). Can't be parsed into a single number."
 
+{% hint style="warning" %}
+Always use the `ERRORCODE` variable to check if the operation was successful or not. Do **not** use `ERRORTEXT` for anything else than displaying the error found, as its contents may change in future releases of LDPL.
+{% endhint %}
+

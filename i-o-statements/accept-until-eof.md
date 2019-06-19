@@ -4,7 +4,7 @@ The `ACCEPT UNTIL EOF` statement accepts input from standard input until an EOF 
 
 #### Syntax:
 
-```text
+```coffeescript
 ACCEPT <TEXT-VAR> UNTIL EOF
 ```
 

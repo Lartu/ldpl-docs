@@ -4,13 +4,13 @@ The `DISPLAY` statement outputs the values passed to the output stream. `CRLF` m
 
 #### Syntax:
 
-```c
+```coffeescript
 DISPLAY <multiple NUMBER, TEXT, TEXT-VAR, NUMBER-VAR or CRLF>
 ```
 
 #### Example:
 
-```c
-DISPLAY "Hello World! " myVariable CRLF 
+```coffeescript
+DISPLAY "Hello, " nameVariable "! This is a number -> " 89.1 " :)" CRLF
 ```
 

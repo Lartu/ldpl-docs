@@ -59,3 +59,4 @@ STORE <NUMBER-VAR or NUMBER> IN <NUMBER-VAR>
 You could use a `NUMBER LIST` with a defined sub-index \(for example, in the example above, `myList:0`\) where it says NUMBER-VAR, just like in the `STORE - IN` examples in the code extracts above.
 
 In the **LIST STATEMENTS** section you'll find a collection of statements that can be used to work with LISTs.
+

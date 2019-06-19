@@ -91,6 +91,7 @@
 * [LOAD FILE - IN](i-o-statements/load-file-in.md)
 * [WRITE - TO FILE](i-o-statements/write-to-file.md)
 * [APPEND - TO FILE](i-o-statements/append-to-file.md)
+* [LIST CONTENTS OF DIRECTORY - IN](i-o-statements/list-contents-of-directory-in.md)
 
 ## Extensions
 
@@ -103,3 +104,4 @@
 * [CALL EXTERNAL](extensions/call-external.md)
 * [EXTERNAL SUB-PROCEDUREs](extensions/external-sub-procedures.md)
 * [EXTERNAL Variables](extensions/external-variables.md)
+

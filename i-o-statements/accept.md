@@ -4,7 +4,7 @@ The `ACCEPT` command is used to gather input from the user. If a TEXT variable i
 
 #### Syntax:
 
-```c
+```coffeescript
 ACCEPT <TEXT-VAR or NUMBER-VAR>
 ```
 

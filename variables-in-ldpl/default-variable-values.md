@@ -7,3 +7,4 @@ In LDPL each variable is initialized with a value by default. This means that wh
 **TEXT** variables are initialized to the empty string `""`. Same goes to **TEXT MAP**s, where each element is also initialized to `""`.
 
 **LIST**s are initialized empty by default and trying to access a non-existing index will result in an error.
+

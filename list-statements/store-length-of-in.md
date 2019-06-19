@@ -6,13 +6,13 @@ description: Introduced in LDPL 3.0.6 - Diligent Dreadnoughtus
 
 The `STORE LENGTH OF - IN` statement stores the amount of elements stored in a LIST \(or, analogously, the length of the LIST\) into a numeric variable.
 
-#### Syntax:
+## Syntax:
 
 ```coffeescript
 STORE LENGHT OF <LIST> IN <NUMBER-VAR>
 ```
 
-#### Example:
+## Example:
 
 ```coffeescript
 DATA:
@@ -25,3 +25,4 @@ PROCEDURE:
   DISPLAY count CRLF
   # Will display 2
 ```
+

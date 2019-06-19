@@ -4,13 +4,13 @@ The `APPEND x TO FILE y` statement appends the value of `x` to the file called `
 
 #### Syntax:
 
-```text
+```coffeescript
 APPEND <NUMBER or NUMBER-VAR or TEXT or TEXT-VAR> TO FILE <TEXT or TEXT-VAR>
 ```
 
 #### Example:
 
-```c
+```coffeescript
 APPEND "\nHow are you?" TO FILE "hello.txt"
 ```
 

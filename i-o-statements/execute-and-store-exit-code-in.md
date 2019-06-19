@@ -4,7 +4,7 @@ The `EXECUTE - AND STORE EXIT CODE IN` executes the specified command and stores
 
 #### Syntax:
 
-```c
+```coffeescript
 EXECUTE <TEXT or TEXT-VAR> AND STORE EXIT CODE IN <NUM-VAR>
 ```
 

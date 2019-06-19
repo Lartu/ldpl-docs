@@ -14,3 +14,5 @@ The `ERRORTEXT` variable is a TEXT variable that will be empty if the statement 
 When handling ERROR checks, please bear in mind that the content of the `ERRORTEXT` variable may change in future releases of LDPL. The value stored in `ERRORCODE`, however, will not change and so that's the value that should be used to check whether an operation ran successfully or not.
 {% endhint %}
 
+
+

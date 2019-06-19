@@ -4,7 +4,7 @@ The `EXECUTE - AND STORE OUTPUT IN` executes the specified command and stores an
 
 #### Syntax:
 
-```c
+```coffeescript
 EXECUTE <TEXT or TEXT-VAR> AND STORE OUTPUT IN <TEXT-VAR>
 ```
 
