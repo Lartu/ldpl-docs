@@ -13,7 +13,7 @@ When the loop starts, `start` is assigned to `counter` and starts an iteration, 
 ```coffeescript
 FOR <NUMBER-VAR> FROM <NUMBER-VAR or NUMBER> TO <NUMBER-VAR or NUMBER> STEP <NUMBER-VAR or NUMBER> DO
  #Code goes here
-NEXT
+REPEAT
 ```
 
 ## Example:
@@ -24,7 +24,7 @@ DATA:
 PROCEDURE:
   FOR i FROM 0 TO 10 STEP 2 DO
     DISPLAY i " "
-  NEXT
+  REPEAT
   # Will display "0 2 4 6 8 10"
 ```
 
