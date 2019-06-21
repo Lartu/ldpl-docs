@@ -27,6 +27,7 @@
   * [ELSE IF - IS - THEN](control-flow-statements/if-is-then/else-if-is-then.md)
 * [WHILE - IS - DO](control-flow-statements/while-is-do.md)
 * [FOR - FROM - TO - STEP - DO](control-flow-statements/for-from-to-step-do.md)
+* [FOR EACH - IN - DO](control-flow-statements/for-each-in-do.md)
 * [BREAK](control-flow-statements/break.md)
 * [CONTINUE](control-flow-statements/continue.md)
 * [CALL SUB-PROCEDURE](control-flow-statements/call-sub-procedure.md)
