@@ -5,11 +5,29 @@ The `IF` statement evaluates if the condition given by the relational operator b
 #### Syntax:
 
 ```python
-IF <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> THEN
+IF <NUMBER-VAR or NUMBER or MAP or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or MAP or LIST> THEN
  #Code goes here (positive branch)
 ELSE
  #Code goes here (negative branch)
-END IF 
+END IF
+```
+
+or
+
+```python
+IF <TEXT-VAR or TEXT or MAP or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or MAP or LIST> THEN
+ #Code goes here (positive branch)
+ELSE
+ #Code goes here (negative branch)
+END IF
+```
+
+or
+
+```python
+IF <NUMBER-VAR or NUMBER or MAP or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or MAP or LIST> THEN
+ #Code goes here (positive branch)
+END IF
 ```
 
 or
@@ -17,25 +35,7 @@ or
 ```python
 IF <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> THEN
  #Code goes here (positive branch)
-ELSE
- #Code goes here (negative branch)
-END IF 
-```
-
-or
-
-```python
-IF <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> THEN
- #Code goes here (positive branch)
-END IF 
-```
-
-or
-
-```python
-IF <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> THEN
- #Code goes here (positive branch)
-END IF 
+END IF
 ```
 
 **Possible values of `REL-OP-NUM` \(number relational operator\):**
@@ -51,4 +51,3 @@ END IF
 
 * `EQUAL TO`
 * `NOT EQUAL TO`
-

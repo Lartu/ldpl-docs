@@ -5,17 +5,17 @@ The `WHILE` statement evaluates if the condition given by the relational operato
 #### Syntax:
 
 ```python
-WHILE <NUMBER-VAR or NUMBER or VECTOR or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or VECTOR or LIST> DO
+WHILE <NUMBER-VAR or NUMBER or MAP or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or MAP or LIST> DO
  #Code goes here
-REPEAT 
+REPEAT
 ```
 
 or
 
 ```python
-WHILE <TEXT-VAR or TEXT or VECTOR or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or VECTOR or LIST> DO
+WHILE <TEXT-VAR or TEXT or MAP or LIST> IS <REL-OP-TEXT> <TEXT-VAR or TEXT or MAP or LIST> DO
  #Code goes here
-REPEAT 
+REPEAT
 ```
 
 **Possible values of `REL-OP-NUM` \(number relational operator\):**
@@ -31,6 +31,3 @@ REPEAT
 
 * `EQUAL TO`
 * `NOT EQUAL TO`
-
-
-

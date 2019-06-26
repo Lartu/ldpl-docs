@@ -32,8 +32,8 @@ A DATA section cannot contain anything but variable declarations, comments and e
 ```coffeescript
 DATA: #This is the DATA section
   myNumber IS NUMBER
-  #Next I'm going to declare a text vector
-  niceTextMap IS TEXT NUMBER
+  #Next I'm going to declare a text map
+  niceTextMap IS TEXT MAP
   myAwesomeList IS NUMBER LIST # I've declared a number list!
 
 PROCEDURE:

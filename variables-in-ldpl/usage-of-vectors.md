@@ -1,6 +1,6 @@
 # Declaring MAP variables
 
-A **MAP** is a table of values, called **elements**. The elements of a MAP are distinguished by their keys. **Keys** may be either NUMBER or TEXT literals. MAPs in LDPL are variables that hold a collection of values. When you declare a MAP, you declare a structure that lets you store values of its type on any sub-index of the variable. For example, say you declare the vector `myMap`:
+A **MAP** is a table of values, called **elements**. The elements of a MAP are distinguished by their keys. **Keys** may be either NUMBER or TEXT literals. MAPs in LDPL are variables that hold a collection of values. When you declare a MAP, you declare a structure that lets you store values of its type on any sub-index of the variable. For example, say you declare the map `myMap`:
 
 ```coffeescript
 DATA:
@@ -44,7 +44,7 @@ PROCEDURE:
   STORE 7 IN myMap:myVar #Stores 7 in a key equal to the current value of myVar
   STORE 3 IN myMap:myOtherMap:4
   #Stores 3 in a key of equal value to the key of myMap with value equal to
-  #key 4 of myOtherVector
+  #key 4 of myOtherMap
 ```
 
 In fact, when you use a NUMBER value as a subindex for a MAP, it is silently casted into a TEXT value. For example, `myMap:1` will be interpreted \(an thus, the same\) as `myMap:"1"`.
@@ -77,4 +77,3 @@ In the **MAP STATEMENTS** section you'll find a collection of statements that ca
 {% hint style="warning" %}
 In older versions of LDPL, **MAP**s where called **VECTOR**s. Starting from LDPL 3.0.6 Diligent Dreadnoughtus, they have been renamed to reflect the real data structure they represent. While it is still possible to call them VECTORs in code, and legacy code that declares MAPs as VECTORs is and will continue be supported, this nomenclature is **deprecated** and shouldn't be used anymore.
 {% endhint %}
-
