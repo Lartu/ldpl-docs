@@ -75,5 +75,5 @@ It's important to note that this very feature is a double-edged weapon. While yo
 In the **MAP STATEMENTS** section you'll find a collection of statements that can be used to work with MAPs.
 
 {% hint style="warning" %}
-In older versions of LDPL, **MAP**s where called **VECTOR**s. Starting from LDPL 3.0.6 Diligent Dreadnoughtus, they have been renamed to reflect the real data structure they represent. While it is still possible to call them VECTORs in code, and legacy code that declares MAPs as VECTORs is and will continue be supported, this nomenclature is **deprecated** and shouldn't be used anymore.
+In older versions of LDPL, **MAP**s where called **VECTOR**s. Starting from LDPL 3.1.0 Diligent Dreadnoughtus, they have been renamed to reflect the real data structure they represent. While it is still possible to call them VECTORs in code, and legacy code that declares MAPs as VECTORs is and will continue be supported, this nomenclature is **deprecated** and shouldn't be used anymore.
 {% endhint %}

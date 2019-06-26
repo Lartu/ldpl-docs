@@ -30,6 +30,6 @@ PROCEDURE:
 At the end of the execution of the previous excerpt of code, the `TEXT MAP` called `bar` will contain the values `"0"`, `"7"`, `"cat"`, `"dog"` and `"3"` at keys that are consecutive integers starting at zero, but in no particular order \(meaning that `"0"` may come before `"7"` or after it, no ordering criteria is provided by this standard\).
 
 {% hint style="warning" %}
-Please note that as MAPs where called VECTORs prior to LDPL 3.0.6 Diligent Dreadnoughtus, this statement was called `STORE INDICES OF - IN`. While we still support and will continue to support legacy code that uses the old syntax, it is **deprecated** and should not be used anymore.
+Please note that as MAPs where called VECTORs prior to LDPL 3.1.0 Diligent Dreadnoughtus, this statement was called `STORE INDICES OF - IN`. While we still support and will continue to support legacy code that uses the old syntax, it is **deprecated** and should not be used anymore.
 {% endhint %}
 
