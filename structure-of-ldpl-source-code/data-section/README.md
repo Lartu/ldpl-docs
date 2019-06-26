@@ -1,8 +1,8 @@
 # DATA Section
 
-As stated in [Structure of LDPL Source Code](../), LDPL programs are divided in two sections, one of them being the **DATA** section. The DATA section is where variables are declared. In no other part of a LDPL source can variables be declared. If no variables are declared, the DATA section can be skipped altogether.
+As stated in [Structure of LDPL Source Code](../), LDPL programs are divided in two sections, one of them being the **DATA** section. The DATA section is where global variables are declared (you can use them anywhere in your program). If no variables are declared, the DATA section can be skipped altogether.
 
-All variables in LDPL are global \(LDPL has no concept of scope\) and have a defined [data type](data-types.md).
+All variables in LDPL have a defined [data type](data-types.md).
 
 {% hint style="info" %}
  Available data types are `NUMBER`, `TEXT`, `NUMBER LIST`, `TEXT LIST`, `NUMBER MAP` and `TEXT MAP`.
@@ -30,13 +30,12 @@ variable name IS data type
 A DATA section cannot contain anything but variable declarations, comments and empty lines. En example DATA section may end up looking like this:
 
 ```coffeescript
-DATA: #This is the DATA section 
-  myNumber IS NUMBER 
-  #Next I'm going to declare a text vector 
+DATA: #This is the DATA section
+  myNumber IS NUMBER
+  #Next I'm going to declare a text vector
   niceTextMap IS TEXT NUMBER
   myAwesomeList IS NUMBER LIST # I've declared a number list!
 
-PROCEDURE: 
-  #This is a comment within the PROCEDURE section! 
+PROCEDURE:
+  #This is a comment within the PROCEDURE section!
 ```
-
