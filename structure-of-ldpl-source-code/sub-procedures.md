@@ -37,7 +37,7 @@ PROCEDURE:
 
 In `PROCEDURE` you write the code of the SUB-PROCEDURE using statements like in the main `PROCEDURE` section, with the addition of [RETURN](../control-flow-statements/return.md).
 
-In `PARAMETERS` and `LOCAL DATA` you can only use variable declaration statements, just like in the [DATA](data-section) section. The variables defined here can only be used inside the `PROCEDURE` section of the SUB-PROCEDURE where they are declared. You can declare variables with names declared in other SUB-PROCEDURE or `DATA`, if you use the variable in your SUB-PROCEDURE code it will always refers to the one you declared in the SUB-PROCEDURE, for example:
+In `PARAMETERS` and `LOCAL DATA` you can only use variable declaration statements, just like in the [DATA section](data-section). The variables defined here can only be used inside the `PROCEDURE` section of the SUB-PROCEDURE where they are declared. You can declare variables with names declared in other SUB-PROCEDURE or `DATA`, if you use the variable in your SUB-PROCEDURE code it will always refers to the one you declared in the SUB-PROCEDURE, for example:
 
 ```coffeescript
 DATA:
@@ -57,7 +57,7 @@ PROCEDURE:
   # The output of this program is "I'm a variable from mySubprocedure! 42"
 ```
 
-At the start of the SUB-PROCEDURE execution, all the variables declared in `LOCAL DATA` will be initialized with its [default value](../variables-in-ldpl/default-variable-values), and each invocation of the SUB-PROCEDURE will have its own copy of the local variables. This is important if you want to implement a recursive SUB-PROCEDURE, for example:
+At the start of the SUB-PROCEDURE execution, all the variables declared in `LOCAL DATA` will be initialized with its [default value](../variables-in-ldpl/default-variable-values.md), and each invocation of the SUB-PROCEDURE will have its own copy of the local variables. This is important if you want to implement a recursive SUB-PROCEDURE, for example:
 
 ```coffeescript
 DATA:
