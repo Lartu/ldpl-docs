@@ -6,13 +6,13 @@ These C++ calleable SUB-PROCEDUREs are called EXTERNAL SUB-PROCEDUREs, as they c
 
 In order to declare an EXTERNAL SUB-PROCEDURE you must first declare it in your C++ source code. Say, for example, that you want to declare a SUB-PROCEDURE called `helloWorld`. In your C++ you should write the following line:
 
-```text
+```cpp
 void HELLOWORLD();
 ```
 
 Note that EXTERNAL SUB-PROCEDUREs cannot receive any kind of parameters and must be declared as `void`. You may then call the EXTERNAL SUB-PROCEDURE from C++ code like:
 
-```text
+```cpp
 int myCPPFunction(){
   HELLOWORLD();
   return 1;
@@ -21,8 +21,8 @@ int myCPPFunction(){
 
 Once that's taken care of, you can declare your EXTERNAL SUB-PROCEDURE as any other SUB-PROCEDURE in LDPL by preppending the identifier EXTERNAL to the SUB-PROCEDURE declaration:
 
-```text
-EXTERNAL SUB-PROCEDURE helloWorld
+```coffeescript
+EXTERNAL SUB-PROCEDURE helloWorld #or EXTERNAL SUB
   #Code here...
 END SUB-PROCEDURE
 ```

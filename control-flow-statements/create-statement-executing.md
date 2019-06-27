@@ -12,9 +12,9 @@ The `CREATE STATEMENT` statement lets you add custom statements to LDPL that exe
 CREATE STATEMENT <TEXT> EXECUTING <sub-procedure name>
 ```
 
-The `TEXT` describes the new statement syntax and must contain tokens separated by whitespace. Each token can be a keyword, which is a word with `A-Z` characters (preferably in English), or `"$"`, a character that marks where parameters are passed. At least one keyword token is required and the number of `"$"` tokens must be the same as the number of parameters of the SUB-PROCEDURE you pass after `EXECUTING`. For example, a valid `TEXT` is `"DISPLAY $ $ TIMES"` if the SUB-PROCEDURE has exactly two parameters. The SUB-PROCEDURE must be declared before creating the statement.
+The `TEXT` describes the new statement syntax and must contain tokens separated by whitespace. Each token can be a keyword, which is a word with `A-Z` characters \(preferably in English\), or `"$"`, a character that marks where parameters are passed. At least one keyword token is required and the number of `"$"` tokens must be the same as the number of parameters of the SUB-PROCEDURE you pass after `EXECUTING`. For example, a valid `TEXT` is `"DISPLAY $ $ TIMES"` if the SUB-PROCEDURE has exactly two parameters. The SUB-PROCEDURE must be declared before creating the statement.
 
-After a statement is created you can use it like any other LDPL statement in `PROCEDURE` sections, just write a line with all the tokens of the `TEXT` in the same order but placing values instead of `"$"`. The types of the values must be the same as the parameter types of the SUB-PROCEDURE the statement executes following the same order. Using the new statement will produce the same effect as [CALL](call-sub-procedure.md)ing the SUB-PROCEDURE (parameters are passed by reference too).
+After a statement is created you can use it like any other LDPL statement in `PROCEDURE` sections, just write a line with all the tokens of the `TEXT` in the same order but placing values instead of `"$"`. The types of the values must be the same as the parameter types of the SUB-PROCEDURE the statement executes following the same order. Using the new statement will produce the same effect as [CALL](call-sub-procedure.md)ing the SUB-PROCEDURE \(parameters are passed by reference too\).
 
 You can create two different statements with same `TEXT` and use both if at least one of the parameter types are different in each SUB-PROCEDURE, because the resulting syntaxes will differ from each other. Using this you can create two versions of the same statements dealing with different parameter types, like the first example shows.
 
@@ -84,4 +84,5 @@ PROCEDURE:
   DISPLAY "Hi!" 3 TIMES # This executes the LDPL DISPLAY statement!
 
   # This program displays "Hi!30" because times is equal to 0
-  ```
+```
+

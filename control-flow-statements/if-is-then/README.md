@@ -2,7 +2,7 @@
 
 The `IF` statement evaluates if the condition given by the relational operator between the first and second values is positive. If it is, the code in the positive branch is executed. If it is not, the code in the negative branch is executed \(if available\). Execution then continues normally.
 
-#### Syntax:
+## Syntax:
 
 ```python
 IF <NUMBER-VAR or NUMBER or MAP or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or MAP or LIST> THEN
@@ -51,3 +51,4 @@ END IF
 
 * `EQUAL TO`
 * `NOT EQUAL TO`
+

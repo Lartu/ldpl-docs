@@ -2,7 +2,7 @@
 
 The `WHILE` statement evaluates if the condition given by the relational operator between the first and second values is positive. While it is, the code between the `WHILE` and `REPEAT` statements is repeatedly ran.
 
-#### Syntax:
+## Syntax:
 
 ```python
 WHILE <NUMBER-VAR or NUMBER or MAP or LIST> IS <REL-OP-NUM> <NUMBER-VAR or NUMBER or MAP or LIST> DO
@@ -31,3 +31,4 @@ REPEAT
 
 * `EQUAL TO`
 * `NOT EQUAL TO`
+

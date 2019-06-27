@@ -6,14 +6,14 @@ description: Introduced in LDPL 3.1.0 - Diligent Dreadnoughtus
 
 The `PUSH - TO` statement is used to add elements to a LIST. When you push an element to a LIST it is appended at the end of the list.
 
-#### Syntax:
+## Syntax:
 
 ```coffeescript
 PUSH <NUMBER-VAR or NUMBER> TO <NUMBER-LIST>
 PUSH <TEXT-VAR or TEXT> TO <TEXT-LIST>
 ```
 
-#### Example:
+## Example:
 
 ```coffeescript
 DATA:

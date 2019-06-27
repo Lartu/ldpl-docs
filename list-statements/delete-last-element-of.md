@@ -6,7 +6,7 @@ description: Introduced in LDPL 3.1.0 - Diligent Dreadnoughtus
 
 The `DELETE LAST ELEMENT OF` deletes the last element pushed to a LIST. If the LIST was empty, this statement does nothing.
 
-#### Syntax:
+## Syntax:
 
 ```coffeescript
 DELETE LAST ELEMENT OF <LIST>
