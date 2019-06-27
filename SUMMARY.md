@@ -35,6 +35,7 @@
 * [EXIT](control-flow-statements/exit.md)
 * [WAIT - MILLISECONDS](control-flow-statements/wait-milliseconds.md)
 * [GOTO & LABEL](control-flow-statements/goto-and-label.md)
+* [CREATE STATEMENT - EXECUTING](control-flow-statements/create-statement-executing.md)
 
 ## Arithmetic Statements
 
@@ -105,4 +106,3 @@
 * [CALL EXTERNAL](extensions/call-external.md)
 * [EXTERNAL SUB-PROCEDUREs](extensions/external-sub-procedures.md)
 * [EXTERNAL Variables](extensions/external-variables.md)
-
