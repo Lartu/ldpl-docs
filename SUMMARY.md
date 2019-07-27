@@ -11,6 +11,7 @@
     * [Data Types](structure-of-ldpl-source-code/data-section/data-types.md)
   * [PROCEDURE Section](structure-of-ldpl-source-code/procedure-section.md)
   * [SUB-PROCEDUREs](structure-of-ldpl-source-code/sub-procedures.md)
+  * [Importing other sources](structure-of-ldpl-source-code/importing-other-sources.md)
 * [Variables in LDPL](variables-in-ldpl/README.md)
   * [Declaring LIST Variables](variables-in-ldpl/declaring-list-variables.md)
   * [Declaring MAP variables](variables-in-ldpl/usage-of-vectors.md)
@@ -39,17 +40,10 @@
 
 ## Arithmetic Statements
 
-* [ADD - AND - IN](arithmetic-statements/add-and-in.md)
-* [SUBTRACT - FROM - IN](arithmetic-statements/subtract-from-in.md)
-* [MULTIPLY - BY - IN](arithmetic-statements/multiply-by-in.md)
-* [DIVIDE - BY - IN](arithmetic-statements/divide-by-in.md)
-* [MODULO - BY - IN](arithmetic-statements/modulo-by-in.md)
-* [ABS](arithmetic-statements/abs.md)
-* [STORE RANDOM IN](arithmetic-statements/store-random-in.md)
-* [FLOOR](arithmetic-statements/floor.md)
-* [CEIL](arithmetic-statements/ceil.md)
-* [INCR & DECR](arithmetic-statements/incr.md)
 * [IN - SOLVE](arithmetic-statements/in-solve.md)
+* [FLOOR](arithmetic-statements/floor.md)
+* [MODULO - BY - IN](arithmetic-statements/modulo-by-in.md)
+* [GET RANDOM IN](arithmetic-statements/store-random-in.md)
 
 ## Text Statements
 
@@ -57,9 +51,9 @@
 * [REPLACE - FROM - WITH - IN](text-statements/replace-from-with-in.md)
 * [SPLIT - BY - IN](text-statements/split-by-in.md)
 * [GET CHARACTER AT - FROM - IN](text-statements/get-character-at-from-in.md)
-* [STORE LENGTH OF - IN](text-statements/store-length-of-in.md)
-* [STORE CHARACTER - IN](text-statements/store-character-in.md)
-* [STORE CHARACTER CODE OF - IN](text-statements/store-character-code-of-in.md)
+* [GET LENGTH OF - IN](text-statements/store-length-of-in.md)
+* [GET ASCII CHARACTER - IN](text-statements/store-character-in.md)
+* [GET CHARACTER CODE OF - IN](text-statements/store-character-code-of-in.md)
 * [STORE QUOTE - IN](text-statements/store-quote-in.md)
 * [IN - JOIN](text-statements/in-join.md)
 * [GET INDEX OF - FROM - IN](text-statements/get-index-of-from-in.md)
@@ -72,15 +66,15 @@
 * [PUSH - TO](list-statements/push-to.md)
 * [CLEAR](list-statements/clear.md)
 * [COPY - TO](list-statements/copy-to.md)
-* [STORE LENGTH OF - IN](list-statements/store-length-of-in.md)
+* [GET LENGTH OF - IN](list-statements/store-length-of-in.md)
 * [DELETE LAST ELEMENT OF](list-statements/delete-last-element-of.md)
 
 ## MAP STATEMENTS <a id="vector-statements"></a>
 
 * [CLEAR](vector-statements/clear.md)
 * [COPY - TO](vector-statements/copy-to.md)
-* [STORE KEY COUNT OF - IN](vector-statements/store-index-count-of-in.md)
-* [STORE KEYS OF - IN](vector-statements/store-indices-of-in.md)
+* [GET KEY COUNT OF - IN](vector-statements/store-index-count-of-in.md)
+* [GET KEYS OF - IN](vector-statements/store-indices-of-in.md)
 
 ## I/O Statements
 
