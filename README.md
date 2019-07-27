@@ -1,8 +1,6 @@
 # Introduction
 
-The LDPL Community has compiled this document with the desire to teach and standardize the LDPL programming language.
-
-This document is definitive and backwards compatible, and any future revisions that build upon it will only add features to the language, not remove nor change any functionality and, as such, any code written for a previous LDPL specification should continue to run as it did with the specification it was written for.
+The **LDPL Community** has compiled this document with the desire to teach and standardize the LDPL programming language.
 
 ![](.gitbook/assets/ldpl-reference.png)
 
