@@ -99,4 +99,5 @@
 * [CALL EXTERNAL](extensions/call-external.md)
 * [EXTERNAL SUB-PROCEDUREs](extensions/external-sub-procedures.md)
 * [EXTERNAL Variables](extensions/external-variables.md)
+* [LDPL C++ Types](extensions/ldpl-c++-types.md)
 
