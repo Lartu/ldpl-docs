@@ -57,7 +57,7 @@ For the second, here's the mapping between types:
 | `TEXT LIST` | `ldpl_list<std::string>` |
 | `NUMBER LIST` | `ldpl_list<ldpl_number>` |
 
-The declarations for this data types are included when your C++ code merged with LDPL code by the LDPL compiler.
+The definitions for these data types can be found in the [LDPL C++ Types](../ldpl-c++-types.md) section.
 
 ### Example
 

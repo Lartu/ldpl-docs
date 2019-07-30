@@ -10,19 +10,19 @@ You can pass the LDPL compiler as many **source files** as you want and all thes
 
 `$ ldpl helloWorld.ldpl byeByeWorld.ldpl hiThere.ldpl`
 
-and this would create an executable file called `helloWorld-bin`. By default, the name used to save the executable is the name of the first LDPL source code passed to the compiler, minus the extension, plus `-bin` \(or `-bin.exe` on Windows\).
+and this would create an executable file called `helloWorld-bin`. By default, the name used to save the executable is the name of the first LDPL source code passed to the compiler, minus the extension, plus `-bin`.
 
 When you run `helloWorld-bin`, "Hello World! Bye Bye World! Hi there~" will be printed to the screen, respecting the order in which the sources where compiled. If you were to change the order of the sources in the compilation line, the order of execution of the binary file would change as well.
 
 **Flags** alter the way the compiler works by default. The list of available flags can be found by running `$ ldpl -h`.
 
-You can **import** files to your LDPL compilation by using the `-i=` flag. For example, say you have a library `mylib.ldpl` and a source file `mysource.ldpl`, you can compile both and include the library by running `ldpl -i=mylibrary.ldpl mysource.ldpl`. Multiple `-i=` can be used to import multiple files. While the `-i=` flag is not mandatory when including LDPL sources, as seen above, importing C++ Extensions **requires** this flag to be used; see the [Extensions](../extensions/c++-extensions/) section for more information.
+You can import extensions to your LDPL compilation by using the `-i=` flag. Extensions can be imported by passing `.o`, `.a`, or `.cpp` files to this flag. Multiple `-i=` can be used to import multiple files. See the [Extensions](../extensions/c++-extensions/) section for more information.
 
 By using the `-r` flag you can just transpile the project into C++ and print the **C++ representation** for that code.
 
 You can set the **output file name** for the compiled binary with the `-o` flag. For example, if in the example above you wanted to name your program "myProgram" instead of "helloWorld-bin", you could compile it with `ldpl main.ldpl -o=myProgram`.
 
-On **Linux** and **Windows** platforms, LDPL builds static binaries by default. If you want to build non-static ones use the `-n` flag \(or the alternative `--non-static` flag\).
+On **Linux** platforms, LDPL builds static binaries by default. If you want to build non-static ones use the `-ns` flag.
 
 The `-c` flag tells LDPL to accept source code from the **standard input**.
 

@@ -1,10 +1,10 @@
-# STORE CHARACTER - IN
+# GET ASCII CHARACTER - IN
 
-The `STORE CHARACTER` statement stores the character with the ASCII code passed in NUMBER or NUMBER-VAR in TEXT-VAR.
+The `GET ASCII CHARACTER` statement stores the character with the ASCII code passed in NUMBER or NUMBER-VAR in TEXT-VAR.
 
 #### Syntax:
 
 ```c
-STORE CHARACTER <NUMBER or NUMBER-VAR> IN <TEXT-VAR>
+GET ASCII CHARACTER <NUMBER or NUMBER-VAR> IN <TEXT-VAR>
 ```
 

@@ -2,14 +2,14 @@
 description: Introduced in LDPL 3.1.0 - Diligent Dreadnoughtus
 ---
 
-# STORE LENGTH OF - IN
+# GET LENGTH OF - IN
 
-The `STORE LENGTH OF - IN` statement stores the amount of elements stored in a LIST \(or, analogously, the length of the LIST\) into a numeric variable.
+The `GET LENGTH OF - IN` statement stores the amount of elements stored in a LIST \(or, analogously, the length of the LIST\) into a numeric variable.
 
 ## Syntax:
 
 ```coffeescript
-STORE LENGHT OF <LIST> IN <NUMBER-VAR>
+GET LENGHT OF <LIST> IN <NUMBER-VAR>
 ```
 
 ## Example:
