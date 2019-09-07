@@ -66,4 +66,5 @@ IF length IS GREATER THAN 0 AND ( names:0 IS EQUAL TO "Alice" OR names:0 IS EQUA
 END IF
 ```
 
-The `names` list is empty, so the `length is greater than 0` condition is negative, and the second one is not evaluated (and the execution continues after the `END IF`). Thanks to short-circuit evaluation `names:0` is not evaluated and we don`t get an index out of range runtime error!
+The `names` list is empty, so the `length is greater than 0` condition is negative, and the second one is not evaluated \(and the execution continues after the `END IF`\). Thanks to short-circuit evaluation `names:0` is not evaluated and we don\`t get an index out of range runtime error!
+

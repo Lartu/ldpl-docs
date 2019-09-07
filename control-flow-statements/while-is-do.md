@@ -10,4 +10,5 @@ WHILE <CONDITION> DO
 REPEAT
 ```
 
-The `<CONDITION>` that you can use are the same as the [IF](if-is-then/README.md) statement ones.
+The `<CONDITION>` that you can use are the same as the [IF](if-is-then/) statement ones.
+
