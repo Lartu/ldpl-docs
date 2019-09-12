@@ -137,6 +137,6 @@ NAMES[1] = "just Paul"
 ```
 
 {% hint style="info" %}
-The internal datatype for LDPL MAPs is called ldpl\_vector because in LDPL releases prior to LDPL 3.1.0 Diligent Dreadnoughtus, MAPs where called VECTORs.
+The internal datatype for LDPL MAPs is called ldpl\_vector because in LDPL releases prior to LDPL 3.1.0 Diligent Dreadnoughtus, MAPs were called VECTORs.
 {% endhint %}
 
