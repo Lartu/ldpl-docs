@@ -12,7 +12,7 @@ You can pass the LDPL compiler as many **source files** as you want and all thes
 
 and this would create an executable file called `helloWorld-bin`. By default, the name used to save the executable is the name of the first LDPL source code passed to the compiler, minus the extension, plus `-bin`.
 
-When you run `helloWorld-bin`, "Hello World! Bye Bye World! Hi there~" will be printed to the screen, respecting the order in which the sources where compiled. If you were to change the order of the sources in the compilation line, the order of execution of the binary file would change as well.
+When you run `helloWorld-bin`, "Hello World! Bye Bye World! Hi there~" will be printed to the screen, respecting the order in which the sources were compiled. If you were to change the order of the sources in the compilation line, the order of execution of the binary file would change as well.
 
 **Flags** alter the way the compiler works by default. The list of available flags can be found by running `$ ldpl -h`.
 

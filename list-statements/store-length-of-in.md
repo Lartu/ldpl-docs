@@ -9,7 +9,7 @@ The `GET LENGTH OF - IN` statement stores the amount of elements stored in a LIS
 ## Syntax:
 
 ```coffeescript
-GET LENGHT OF <LIST> IN <NUMBER-VAR>
+GET LENGTH OF <LIST> IN <NUMBER-VAR>
 ```
 
 ## Example:
