@@ -19,11 +19,19 @@
 {% code-tabs %}
 {% code-tabs-item title="MAP" %}
 ```cpp
+#include <unordered_map>
+#include <string>
+#include <sstream>
+#include <iostream>
+#define ldpl_number double
+
+std::string to_ldpl_string(double x);
+
 template<typename T>
 struct ldpl_map {
-    unordered_map<string, T> inner_collection;
+    std::unordered_map<std::string, T> inner_collection;
 
-    T& operator [] (const string& i) {
+    T& operator [] (const std::string& i) {
         return inner_collection[i];
     }
 
