@@ -1,3 +1,7 @@
+# Important Note:
+
+This is the OLD pre-4.3 LDPL documentation. The new documentation is hosted [here](https://github.com/Lartu/ldpl/tree/master/docs). Thank you!
+
 # Introduction
 
 The **LDPL Community** has compiled this document with the desire to teach and standardize the LDPL programming language.
